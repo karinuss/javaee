@@ -9,7 +9,7 @@ import java.util.List;
  * Created by karina on 21.10.14.
  */
 @Stateful
-public class RegionsBean implements RegionInterface,Serializable {
+public class RegionsBean implements RegionInterface {
 
     private List<Region> regions;
 
