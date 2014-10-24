@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by karina on 21.10.14.
  */
-@WebServlet(name = "RegionsServlet", urlPatterns = { "/Regions*" }, loadOnStartup = 1)
+@WebServlet(name = "RegionsServlet", urlPatterns = { "/Regions" }, loadOnStartup = 1)
 public class RegionsServlet extends HttpServlet {
 
     @EJB
@@ -22,9 +22,12 @@ public class RegionsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String regionName = req.getParameter("region");
 
-        if(!regionName.isEmpty()) {
-            regionsInterface.addRegion(new Region(regionName));
+        if(regionName != null) {
+            if (!regionName.isEmpty()) {
+                regionsInterface.addRegion(new Region(regionName));
+            }
         }
+
         List<Region> regionList = regionsInterface.getRegions();
         req.setAttribute("regions", regionList);
         getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);

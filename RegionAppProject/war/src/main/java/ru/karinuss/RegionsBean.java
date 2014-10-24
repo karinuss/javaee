@@ -15,8 +15,10 @@ public class RegionsBean implements RegionInterface,Serializable {
 
     @Override
     public List<Region> getRegions() {
-        if(regions == null)
+        if(regions == null) {
             regions = new ArrayList<Region>();
+            addRegion(new Region("Trivandrum"));
+        }
 
         return regions;
     }

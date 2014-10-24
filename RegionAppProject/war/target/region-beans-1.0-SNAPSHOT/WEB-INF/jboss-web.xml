@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jboss-web>
-    <context-root>/Regions</context-root>
+    <context-root>/Info</context-root>
 </jboss-web>
