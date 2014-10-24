@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd"
+        xmlns:context="http://www.springframework.org/schema/context">
+
+<bean id="my-view-bean" class="ru.karinuss.View" scope="singleton">
+    
+    <property name="number" value="1000" />
+    <property name="businessLogic">
+        <bean class="ru.karinuss.BL">
+            <constructor-arg type="java.lang.String" value="GentooTux" />
+            <property name="dao" ref="dao-bean"></property>
+        </bean>
+    </property>
+</bean>
+
+    <bean id="dao-bean" class="ru.karinuss.DAOimpl" lazy-init="true">
+
+    </bean>
+</beans>
+
+
