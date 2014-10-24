@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="region-beans-local:war">
+    <output-path>$PROJECT_DIR$/war-local/target</output-path>
+    <root id="archive" name="region-beans-local-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="region-beans-local:war exploded" />
+    </root>
+  </artifact>
+</component>

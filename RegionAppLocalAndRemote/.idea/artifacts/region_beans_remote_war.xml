@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="region-beans-remote:war">
+    <output-path>$PROJECT_DIR$/war-remote/target</output-path>
+    <root id="archive" name="region-beans-remote-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="region-beans-remote:war exploded" />
+    </root>
+  </artifact>
+</component>

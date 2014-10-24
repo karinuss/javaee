@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ear/region-app.iml" filepath="$PROJECT_DIR$/ear/region-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/war-local/region-beans-local.iml" filepath="$PROJECT_DIR$/war-local/region-beans-local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/war-remote/region-beans-remote.iml" filepath="$PROJECT_DIR$/war-remote/region-beans-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/region-lib.iml" filepath="$PROJECT_DIR$/lib/region-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/region-pom-module.iml" filepath="$PROJECT_DIR$/region-pom-module.iml" />
+    </modules>
+  </component>
+</project>
+
