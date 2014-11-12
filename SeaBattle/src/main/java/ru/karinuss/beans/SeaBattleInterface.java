@@ -1,4 +1,6 @@
-package ru.karinuss;
+package ru.karinuss.beans;
+
+import ru.karinuss.lib.Coordinates;
 
 import javax.ejb.Local;
 

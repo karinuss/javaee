@@ -1,4 +1,4 @@
-package ru.karinuss;
+package ru.karinuss.lib;
 
 /**
  * Created by karina on 31.10.14.

@@ -1,4 +1,4 @@
-package ru.karinuss;
+package ru.karinuss.lib;
 
 import java.util.Set;
 import javax.validation.constraints.NotNull;
