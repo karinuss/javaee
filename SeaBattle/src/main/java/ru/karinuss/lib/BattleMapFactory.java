@@ -10,16 +10,26 @@ public final class BattleMapFactory {
 
     private static final Integer DEFAULT_MAP_HEIGHT = 10;
     private static final Integer DEFAULT_MAP_WEIGHT = 10;
-    private static final Integer DEFAULT_MAP_SHIPS = 2;
+    private static final Integer DEFAULT_MAP_SHIPS = 4;
+    private static Set<Ship> DEFAULT_SHIPS;
+
+    static {
+        DEFAULT_SHIPS = new HashSet<Ship>(DEFAULT_MAP_SHIPS);
+        // todo: add ships
+
+    }
 
     static public BattleMap getBattleMap() {
-        return getBattleMap(DEFAULT_MAP_HEIGHT, DEFAULT_MAP_WEIGHT, DEFAULT_MAP_SHIPS);
+        return createDefaultBattleMap();
     }
 
-    static public BattleMap getBattleMap(Integer height, Integer width) {
-        return getBattleMap(height, width, DEFAULT_MAP_SHIPS);
+    static private BattleMap createDefaultBattleMap() {
+
+        BattleMap map = new BattleMap(DEFAULT_MAP_HEIGHT, DEFAULT_MAP_WEIGHT, DEFAULT_SHIPS);
+        return map;
     }
 
+    /*
     static public BattleMap getBattleMap(Integer height, Integer width, Integer numShips) {
 
         Set<Ship>  ships = createShips(height, width, numShips);
@@ -29,9 +39,7 @@ public final class BattleMapFactory {
 
     static private Set<Ship> createShips(int height, int width, int numShips) {
         Set<Ship> ships = new HashSet<Ship>();
-
             // todo
-
         return  ships;
-    }
+    } */
 }

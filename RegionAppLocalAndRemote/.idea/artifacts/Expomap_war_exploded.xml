@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Expomap:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/SpringMVC/GS_Spring_005/target/Expomap</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Expomap" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Expomap/web/Web" />
+    </root>
+  </artifact>
+</component>

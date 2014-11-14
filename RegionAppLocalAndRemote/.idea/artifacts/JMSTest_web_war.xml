@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JMSTest-web:war">
+    <output-path>$PROJECT_DIR$/../../examples.git/EJB/JMSTest/JMSTest-web/target</output-path>
+    <root id="archive" name="JMSTest-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JMSTest-web:war exploded" />
+    </root>
+  </artifact>
+</component>

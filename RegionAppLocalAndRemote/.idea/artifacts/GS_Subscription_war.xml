@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GS_Subscription:war">
+    <output-path>$PROJECT_DIR$/../../examples.git/Spring/GS_SubscriptionPortlet/target</output-path>
+    <root id="archive" name="GS_Subscription.war">
+      <element id="artifact" artifact-name="GS_Subscription:war exploded" />
+    </root>
+  </artifact>
+</component>

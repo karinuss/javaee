@@ -6,17 +6,26 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.MediaType;
 
-/**
- * Created by karina on 11.11.14.
- */
+/* Protocol REST<->Servlet(JSON)
+* #newgame
+* create new maps
+    newgame/ { msg: "message",  maps: { user: [], computer: [] } }
+* get maps
+    getmaps/ { maps: { user: [], computer: [] }}
+* #fire
+*  user step
+     fire?x=10&y=20 { msg: "message", coord: { x: 10, y: 20, hit: 0 } }
+*  computer step
+    nextstep/ { msg: "message", coord: { x: 10, y: 34,  hit: 1 } }
+*/
 @ApplicationPath("/battle")
 @Path("/Simple")
 public class BattleService extends Application {
     
     @GET
-    @Path("/step")
+    @Path("/fire")
     @Produces(MediaType.APPLICATION_JSON)
-    public BattleServiceMsg Fire(@QueryParam("x") @NotNull Integer x,
+    public BattleServiceMsg fire(@QueryParam("x") @NotNull Integer x,
                                  @QueryParam("y") @NotNull Integer y) {
 
         // todo
@@ -27,10 +36,27 @@ public class BattleService extends Application {
     @GET
     @Path("/new")
     @Produces(MediaType.APPLICATION_JSON)
-    public BattleServiceMsg NewGame() {
+    public BattleServiceMsg newGame() {
+        // todo
+        return new BattleServiceMsg("new game created");
+    }
+
+
+    @GET
+    @Path("/getmaps")
+    @Produces(MediaType.APPLICATION_JSON)
+    public BattleServiceMsg getMaps() {
         // todo
         // вернуть две новые карты для отрисовки
         return new BattleServiceMsg("new game created");
     }
 
+    @GET
+    @Path("/nextstep")
+    @Produces(MediaType.APPLICATION_JSON)
+    public BattleServiceMsg nextStep() {
+        // todo
+        // вернуть шаг компутера
+        return new BattleServiceMsg("new game created");
+    }
 }

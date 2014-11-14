@@ -4,7 +4,86 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/../../examples.git/EJB/jms/ejb" />
+    <file type="ejb" url="file://$PROJECT_DIR$/../../examples.git/EJB/JMSTest/JMSTest-ejb" />
+    <file type="ejb" url="file://$PROJECT_DIR$/../../examples.git/WebServices/JAX_WS/SimpleWebService/SimpleWebService-ejb" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/../../examples.git/EJB/ejb-pom-module/ejb-ear-module" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/../../examples.git/EJB/ejb-pom-module/ejb-ear2-module" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/../../examples.git/EJB/jms/ear" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/../../examples.git/EJB/JMSTest/JMSTest-ear" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/../../examples.git/WebServices/JAX_WS/SimpleWebService/SimpleWebService-ear" />
     <file type="javaeeApplication" url="file://$PROJECT_DIR$/ear" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Dojo/DojoExampleN01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Dojo/DojoExampleN02" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Dojo/DojoExampleN03" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Dojo/DojoExampleN04" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/DWR/DWRExample-N01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/EJB/ejb-pom-module/ejb-war-module" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/EJB/ejb-pom-module/ejb-war2-module" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/EJB/jms/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/EJB/JMSTest/JMSTest-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN02" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN03" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN04" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN05" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN06" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN07" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN08" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN09" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN10" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JQuery/JQueryExampleN11" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_1" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_10" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_2" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_3" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_4" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_5" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_6" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_7" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_8" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/JSF/GS_JSF_9" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Portlets/SimplePortlet" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/ClientAuthentication" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/GS_ApacheShiro_02" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/GS_ApacheShiro_03" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/GS_Spring_Security_001" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/GS_Spring_Security_002" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/GS_Spring_Security_003" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/GS_Spring_Security_004" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/WebSecurity" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/WebSecurityExample-N00" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/WebSecurityExample-N01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/WebSecurityExample-N02" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Security/WebSecurityExample-N03" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Servlet-JSP/MyFirstServlet" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Servlet-JSP/MyFirstServlet_JSP" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Spring/GS_Spring_24_Lookup" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Spring/GS_SubscriptionPortlet" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/SpringMVC/GS_Spring_001" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/SpringMVC/GS_Spring_002" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/SpringMVC/GS_Spring_003" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/SpringMVC/GS_Spring_005" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/SpringMVC/GS_Spring_006" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Struts/Struts2ExampleN01-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Struts/Struts2ExampleN02-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Struts/Struts2ExampleN03-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Struts/Struts2ExampleN04-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Vaadin/VaadinExampleN01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Vaadin/VaadinExampleN02" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Vaadin/VaadinExampleN03" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Vaadin/VaadinExampleN04" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Velocity/GS_Velocity_2" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/Velocity/GS_Velocity_3" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/WebServices/JAX_WS/WebService_0_JAX-WS" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/WebServices/WEB-REST/RESTExample" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/WebServices/WEB-REST/WebService_5_REST" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/WebServices/WEB-REST/WebService_6_REST" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/ZK/ZKExample01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/ZK/ZKExample02" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/ZK/ZKExample03" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/ZK/ZKExample04" />
+    <file type="web" url="file://$PROJECT_DIR$/../../examples.git/ZK/ZKExample05" />
     <file type="web" url="file://$PROJECT_DIR$/war-local" />
     <file type="web" url="file://$PROJECT_DIR$/war-remote" />
   </component>
@@ -13,6 +92,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../examples.git/EJB/JMSTest/pom.xml" />
+        <option value="$PROJECT_DIR$/../../examples.git/pom.xml" />
+        <option value="$PROJECT_DIR$/../../examples.git/WebServices/JAX_WS/SimpleWebService/pom.xml" />
       </list>
     </option>
   </component>
@@ -36,4 +118,3 @@
     </states>
   </component>
 </project>
-

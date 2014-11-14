@@ -3,6 +3,9 @@
     <output-path>$PROJECT_DIR$/ear/target/region-app-1.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="region-app/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear/target/MANIFEST.MF" />
+      </element>
       <element id="archive" name="region-beans-local-1.0-SNAPSHOT.war">
         <element id="artifact" artifact-name="region-beans-local:war exploded" />
       </element>

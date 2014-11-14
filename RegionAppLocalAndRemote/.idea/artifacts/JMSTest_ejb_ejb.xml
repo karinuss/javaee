@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="JMSTest-ejb:ejb">
+    <output-path>$PROJECT_DIR$/../../examples.git/EJB/JMSTest/JMSTest-ejb/target</output-path>
+    <root id="archive" name="JMSTest-ejb-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="JMSTest-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

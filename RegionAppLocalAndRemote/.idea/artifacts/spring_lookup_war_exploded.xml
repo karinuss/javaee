@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-lookup:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Spring/GS_Spring_24_Lookup/target/spring-lookup</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-lookup" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spring-lookup/web/Web" />
+    </root>
+  </artifact>
+</component>

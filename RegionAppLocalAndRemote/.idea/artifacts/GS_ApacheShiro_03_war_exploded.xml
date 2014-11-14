@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GS_ApacheShiro_03:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Security/GS_ApacheShiro_03/target/GS_ApacheShiro_03-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GS_ApacheShiro_03" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="GS_ApacheShiro_03/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -13,14 +13,14 @@ public class BattleMap {
     private Set<Ship> ships;
     private Set<Coordinates> hitCoords;
 
-
     public BattleMap(Integer height, Integer width) {
         this.height = height;
         this.width = width;
     }
 
     public BattleMap(Integer height, Integer width, Set<Ship> ships) {
-        this(height, width);
+        this.height = height;
+        this.width = width;
         this.ships = ships;
     }
 

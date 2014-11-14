@@ -1,5 +1,6 @@
 package ru.karinuss.beans;
 
+import ru.karinuss.lib.BattleMap;
 import ru.karinuss.lib.Coordinates;
 
 import javax.ejb.Local;
@@ -11,5 +12,6 @@ import javax.ejb.Local;
 public interface SeaBattleInterface {
 
     public boolean isHit(Coordinates coordinates);
-
+    public BattleMap getBattleMapUser();
+    public BattleMap getBattleMapComputer();
 }

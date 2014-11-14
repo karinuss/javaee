@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebSecurityExample-N01:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Security/WebSecurityExample-N01/target/WebSecurityExample-N01-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebSecurityExample-N01" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WebSecurityExample-N01/web/Web" />
+    </root>
+  </artifact>
+</component>

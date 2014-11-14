@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="VelocityExample-N03:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Velocity/GS_Velocity_3/target/VelocityExample-N03-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="VelocityExample-N03" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="VelocityExample-N03/web/Web" />
+    </root>
+  </artifact>
+</component>

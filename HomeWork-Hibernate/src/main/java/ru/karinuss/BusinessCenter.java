@@ -1,8 +1,5 @@
 package ru.karinuss;
 
-import javax.persistence.*;
-import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,41 +7,12 @@ import java.util.List;
  */
 
 //todo add annotations
-@Entity
-@Table(name="bc_table", schema = "public")
-public class BusinessCenter implements Serializable {
+public class BusinessCenter {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "bc_id")
-    private long businessCenterId;
-
-    @OrderColumn
-    @Column(name = "bc_address", nullable = true)
-    private String address;
-
-   // @OrderBy
-    @OneToMany(mappedBy = "businessCenter", fetch = FetchType.EAGER, orphanRemoval = true, cascade = CascadeType.ALL)
-    public List<VendingMachine> listMachines;
-
-    public BusinessCenter() {
-        this.listMachines = new ArrayList<VendingMachine>();
-    }
-
-    public List<VendingMachine> getListMachines() {
-        return listMachines;
-    }
-
-    public void setListMachines(List<VendingMachine> listMachines) {
-        this.listMachines = listMachines;
-    }
-
-    public long getBusinessCenterId() {
-        return businessCenterId;
-    }
+    String address;
+    List<VendingMachine> vendingMachineList;
 
     public BusinessCenter(String address) {
-        this();
         this.address = address;
     }
 
@@ -58,6 +26,6 @@ public class BusinessCenter implements Serializable {
 
     @Override
     public String toString() {
-        return "BusinessCenter[" + businessCenterId + "] at " + address;
+        return "BusinessCenter at " + address;
     }
 }

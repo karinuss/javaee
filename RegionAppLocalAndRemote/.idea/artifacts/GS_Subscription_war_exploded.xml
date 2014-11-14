@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GS_Subscription:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Spring/GS_SubscriptionPortlet/target/GS_Subscription</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GS_Subscription" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="GS_Subscription/web/Web" />
+    </root>
+  </artifact>
+</component>

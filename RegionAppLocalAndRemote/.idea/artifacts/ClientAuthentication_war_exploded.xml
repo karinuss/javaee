@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ClientAuthentication:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Security/ClientAuthentication/target/ClientAuthentication-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ClientAuthentication" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ClientAuthentication/web/Web" />
+    </root>
+  </artifact>
+</component>

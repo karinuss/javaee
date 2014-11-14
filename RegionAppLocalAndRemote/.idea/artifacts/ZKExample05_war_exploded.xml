@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ZKExample05:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/ZK/ZKExample05/target/ZKExample05</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ZKExample05" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ZKExample05/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Struts2ExampleN02-web:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Struts/Struts2ExampleN02-web/target/Struts2ExampleN02-web-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Struts2ExampleN02-web" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Struts2ExampleN02-web/web/Web" />
+    </root>
+  </artifact>
+</component>

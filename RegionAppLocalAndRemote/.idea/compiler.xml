@@ -22,12 +22,70 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="DojoExampleN01" />
+        <module name="DojoExampleN02" />
+        <module name="DojoExampleN03" />
+        <module name="DojoExampleN04" />
+        <module name="DWRExample-N01" />
+        <module name="ejb-ear-module" />
+        <module name="ejb-ear2-module" />
+        <module name="ejb-jms-ear" />
+        <module name="ejb-jms-ejb" />
+        <module name="ejb-jms-servlet" />
+        <module name="ejb-lib-module" />
+        <module name="ejb-war-module" />
+        <module name="ejb-war2-module" />
+        <module name="hibernate-config-xml-mapping-annotations" />
+        <module name="hibernate-many-to-many" />
+        <module name="hibernate-many-to-one" />
+        <module name="hibernate-one-to-one" />
+        <module name="JMSTest-ear" />
+        <module name="JMSTest-ejb" />
+        <module name="JMSTest-web" />
+        <module name="log4j" />
         <module name="region-app" />
         <module name="region-beans-local" />
         <module name="region-beans-remote" />
         <module name="region-lib" />
+        <module name="RESTExample" />
+        <module name="simple-mybatis" />
+        <module name="SimpleWebService-ear" />
+        <module name="SimpleWebService-ejb" />
+        <module name="Struts2ExampleN01-web" />
+        <module name="Struts2ExampleN03-web" />
+        <module name="Struts2ExampleN04-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DojoExampleN01" target="1.7" />
+      <module name="DojoExampleN02" target="1.7" />
+      <module name="DojoExampleN03" target="1.7" />
+      <module name="DojoExampleN04" target="1.7" />
+      <module name="DWRExample-N01" target="1.6" />
+      <module name="ejb-ear-module" target="1.7" />
+      <module name="ejb-ear2-module" target="1.7" />
+      <module name="ejb-jms-ear" target="1.7" />
+      <module name="ejb-jms-ejb" target="1.7" />
+      <module name="ejb-jms-servlet" target="1.7" />
+      <module name="ejb-lib-module" target="1.7" />
+      <module name="ejb-war-module" target="1.7" />
+      <module name="ejb-war2-module" target="1.7" />
+      <module name="examples" target="1.7" />
+      <module name="hibernate-config-xml-mapping-annotations" target="1.7" />
+      <module name="hibernate-many-to-many" target="1.7" />
+      <module name="hibernate-many-to-one" target="1.7" />
+      <module name="hibernate-one-to-one" target="1.7" />
+      <module name="JMSTest-ear" target="1.6" />
+      <module name="JMSTest-ejb" target="1.6" />
+      <module name="JMSTest-web" target="1.6" />
+      <module name="log4j" target="1.7" />
+      <module name="RESTExample" target="1.7" />
+      <module name="simple-mybatis" target="1.7" />
+      <module name="SimpleWebService-ear" target="1.6" />
+      <module name="SimpleWebService-ejb" target="1.6" />
+      <module name="Struts2ExampleN01-web" target="1.7" />
+      <module name="Struts2ExampleN03-web" target="1.7" />
+      <module name="Struts2ExampleN04-web" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-

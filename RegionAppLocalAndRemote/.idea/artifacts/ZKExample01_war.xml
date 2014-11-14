@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ZKExample01:war">
+    <output-path>$PROJECT_DIR$/../../examples.git/ZK/ZKExample01/target</output-path>
+    <root id="archive" name="ZKExample01.war">
+      <element id="artifact" artifact-name="ZKExample01:war exploded" />
+    </root>
+  </artifact>
+</component>

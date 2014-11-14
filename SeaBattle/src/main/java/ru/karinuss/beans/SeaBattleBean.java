@@ -17,4 +17,14 @@ public class SeaBattleBean implements SeaBattleInterface {
     public boolean isHit(Coordinates coordinates) {
         return false;
     }
+
+    @Override
+    public BattleMap getBattleMapUser() {
+        return mapUser;
+    }
+
+    @Override
+    public BattleMap getBattleMapComputer() {
+        return mapComputer;
+    }
 }

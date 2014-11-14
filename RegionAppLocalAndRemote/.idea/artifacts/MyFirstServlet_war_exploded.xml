@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyFirstServlet:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Servlet-JSP/MyFirstServlet/target/MyFirstServlet-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyFirstServlet" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MyFirstServlet/web/Web" />
+    </root>
+  </artifact>
+</component>

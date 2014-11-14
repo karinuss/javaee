@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GS_Spring_Security_001:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Security/GS_Spring_Security_001/target/GS_Spring_Security_001</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GS_Spring_Security_001" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="GS_Spring_Security_001/web/Web" />
+    </root>
+  </artifact>
+</component>

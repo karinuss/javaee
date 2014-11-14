@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webservice-jax-ws-0:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/WebServices/JAX_WS/WebService_0_JAX-WS/target/sayHello</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webservice-jax-ws-0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="webservice-jax-ws-0/web/Web" />
+    </root>
+  </artifact>
+</component>

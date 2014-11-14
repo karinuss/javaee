@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="VaadinExampleN03:war exploded">
+    <output-path>$PROJECT_DIR$/../../examples.git/Vaadin/VaadinExampleN03/target/VaadinExampleN03-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="VaadinExampleN03" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="VaadinExampleN03/web/Web" />
+    </root>
+  </artifact>
+</component>
